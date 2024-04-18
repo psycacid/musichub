@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+  
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Music hub</h1>
+        <form action="/login" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required class="form-control"><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required class="form-control"><br>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+        <p class="signup-link">Don't have an account? <a href="/signup">Signup</a></p>
+    </div>
+
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
